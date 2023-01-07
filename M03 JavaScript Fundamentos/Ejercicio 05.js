@@ -71,7 +71,7 @@ function esVocal(letra) {
       return "Es vocal";
    } else if (letra.length != 1){
       return "Dato incorrecto";
-   } else (letra !== "A" || "E"|| "I" || "O" || "U"|| "a" || "e" || "i" || "o" || "u"){
+   } else (letra !== "A" || "E"|| "I" || "O" || "U"|| "a" || "e" || "i" || "o" || "u"); {
       return "Dato incorrecto";
    }
 }
